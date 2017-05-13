@@ -1,0 +1,10 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+authors = ["amerelo"]
+
+[dependencies]
+rand="0.3.0"
+kiss3d = "0.8"
+regex = "0.2"
+nalgebra = "0.12.0"
