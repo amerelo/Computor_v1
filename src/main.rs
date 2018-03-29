@@ -61,7 +61,7 @@ fn execut(str: &String)
 		else if degree == 1.0 {
 			module.redu_1();
 			Solver::solve1(&mut module);
-		} 
+		}
 	}
 }
 
@@ -69,14 +69,14 @@ fn main()
 {
 	let args: Vec<_> = env::args().collect();
 
-    if args.len() == 2 {
+	if args.len() == 2 {
 		execut(&args[1]);
-    } else {
+	} else {
 		println!("One arg need");
 	}
 }
 
-// todo 
+// todo
 // - regroupe 2^2 + 1^2 | OK
 // - error of - -x | OK
 // - reduc print | OK
